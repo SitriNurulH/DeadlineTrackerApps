@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deadline Tracker</string>
+
+    <!-- Main Activity -->
+    <string name="menu_add_task">Tambah Task</string>
+    <string name="menu_sync">Sinkronisasi</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_filter">Filter</string>
+    <string name="search_hint">Cari tugas...</string>
+
+    <!-- Task Form -->
+    <string name="hint_task_title">Judul Tugas</string>
+    <string name="hint_task_description">Deskripsi</string>
+    <string name="hint_task_category">Kategori</string>
+    <string name="label_deadline">Deadline</string>
+    <string name="label_priority">Prioritas</string>
+    <string name="label_attachment">Lampiran</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Simpan</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_upload_image">Upload Gambar</string>
+    <string name="btn_take_photo">Ambil Foto</string>
+    <string name="btn_sync_to_cloud">Sync ke Cloud</string>
+    <string name="btn_load_from_cloud">Load dari Cloud</string>
+
+    <!-- Priority Levels -->
+    <string name="priority_high">Tinggi</string>
+    <string name="priority_medium">Sedang</string>
+    <string name="priority_low">Rendah</string>
+
+    <!-- Status -->
+    <string name="status_completed">Selesai</string>
+    <string name="status_incomplete">Belum Selesai</string>
+
+    <!-- Messages -->
+    <string name="msg_task_added">Task berhasil ditambahkan</string>
+    <string name="msg_task_updated">Task berhasil diupdate</string>
+    <string name="msg_task_deleted">Task berhasil dihapus</string>
+    <string name="msg_task_completed">Task selesai! 🎉</string>
+    <string name="msg_no_tasks">Belum ada task. Tap + untuk menambah</string>
+    <string name="msg_loading">Memuat...</string>
+    <string name="msg_syncing">Sinkronisasi...</string>
+    <string name="msg_error">Terjadi kesalahan</string>
+
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Hapus Task?</string>
+    <string name="dialog_delete_message">Apakah Anda yakin ingin menghapus task ini?</string>
+    <string name="dialog_yes">Ya</string>
+    <string name="dialog_no">Tidak</string>
+
+    <!-- Notification -->
+    <string name="notif_deadline_passed">Deadline terlewat!</string>
+    <string name="notif_deadline_soon">Deadline mendekat!</string>
+    <string name="notif_reminder">Reminder</string>
+
+    <!-- Filter -->
+    <string name="filter_all">Semua</string>
+    <string name="filter_incomplete">Belum Selesai</string>
+    <string name="filter_completed">Selesai</string>
+    <string name="filter_high_priority">Prioritas Tinggi</string>
+    <string name="filter_medium_priority">Prioritas Sedang</string>
+    <string name="filter_low_priority">Prioritas Rendah</string>
+
+    <!-- Empty State -->
+    <string name="empty_state_title">Tidak ada task</string>
+    <string name="empty_state_message">Mulai tambahkan task baru dengan menekan tombol +</string>
+
+    <!-- Quote -->
+    <string name="quote_loading">Memuat quote...</string>
+</resources>

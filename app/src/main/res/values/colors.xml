@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pink Soft Theme Colors -->
+    <color name="pink_primary">#E14389</color>
+    <color name="pink_primary_dark">#FF69B4</color>
+    <color name="pink_primary_variant">#FFC0CB</color>
+    <color name="pink_secondary">#FF1493</color>
+    <color name="pink_light">#FFF0F5</color>
+    <color name="pink_accent">#FF69B4</color>
+
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="dark_gray">#424242</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_high">#FFFF1744</color>
+    <color name="priority_medium">#FFFF6D00</color>
+    <color name="priority_low">#FF00C853</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Deadline Colors -->
+    <color name="deadline_passed">#FFEBEE</color>
+    <color name="deadline_soon">#FFF3E0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="background">#FFF0F5</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+
+</resources>

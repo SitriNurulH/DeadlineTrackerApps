@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sync"
+        android:title="Sync ke Cloud"
+        android:icon="@drawable/ic_cloud_upload"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_load_from_cloud"
+        android:title="Load dari Cloud"
+        android:icon="@drawable/ic_cloud_download"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_refresh_quote"
+        android:title="Refresh Quote"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "643087247060",
+    "firebase_url": "https://pmob-313b6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pmob-313b6",
+    "storage_bucket": "pmob-313b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643087247060:android:d8838a41fef0e1f2cd3d41",
+        "android_client_info": {
+          "package_name": "com.example.deadlinetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQh8plh2QxpX0lSMsXHLcnzEiCGw2F_HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643087247060:android:99ba3a6360090c81cd3d41",
+        "android_client_info": {
+          "package_name": "com.fhyra.pmob8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQh8plh2QxpX0lSMsXHLcnzEiCGw2F_HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

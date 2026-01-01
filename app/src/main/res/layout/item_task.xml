@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Priority Indicator -->
+        <View
+            android:id="@+id/viewPriorityIndicator"
+            android:layout_width="8dp"
+            android:layout_height="0dp"
+            android:background="@color/priority_medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- CheckBox -->
+        <CheckBox
+            android:id="@+id/checkBoxCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            style="@style/PinkCheckBox"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/viewPriorityIndicator" />
+
+        <!-- Task Title -->
+        <TextView
+            android:id="@+id/textTaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="Tugas Pemrograman Android"
+            app:layout_constraintTop_toTopOf="@id/checkBoxCompleted"
+            app:layout_constraintBottom_toBottomOf="@id/checkBoxCompleted"
+            app:layout_constraintStart_toEndOf="@id/checkBoxCompleted"
+            app:layout_constraintEnd_toStartOf="@id/iconCloud" />
+
+        <!-- Cloud Sync Icon -->
+        <ImageView
+            android:id="@+id/iconCloud"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_cloud"
+            android:contentDescription="Synced to cloud"
+            app:tint="@color/info"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@id/textTaskTitle"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textTaskDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="Membuat aplikasi deadline tracker dengan fitur lengkap"
+            app:layout_constraintTop_toBottomOf="@id/textTaskTitle"
+            app:layout_constraintStart_toEndOf="@id/checkBoxCompleted"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Deadline -->
+        <ImageView
+            android:id="@+id/iconDeadline"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_calendar"
+            android:contentDescription="Deadline"
+            app:tint="@color/pink_secondary"
+            app:layout_constraintTop_toBottomOf="@id/textTaskDescription"
+            app:layout_constraintStart_toEndOf="@id/checkBoxCompleted" />
+
+        <TextView
+            android:id="@+id/textDeadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/pink_secondary"
+            android:textStyle="bold"
+            tools:text="25 Des 2024, 23:59"
+            app:layout_constraintTop_toTopOf="@id/iconDeadline"
+            app:layout_constraintBottom_toBottomOf="@id/iconDeadline"
+            app:layout_constraintStart_toEndOf="@id/iconDeadline" />
+
+        <!-- Category -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/textCategory"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"
+            android:textSize="11sp"
+            app:chipBackgroundColor="@color/pink_light"
+            app:chipStrokeWidth="0dp"
+            tools:text="Kuliah"
+            app:layout_constraintTop_toBottomOf="@id/iconDeadline"
+            app:layout_constraintStart_toEndOf="@id/checkBoxCompleted" />
+
+        <!-- Attachment Image -->
+        <ImageView
+            android:id="@+id/imageAttachment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Attachment"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@id/textCategory"
+            app:layout_constraintBottom_toBottomOf="@id/textCategory"
+            app:layout_constraintStart_toEndOf="@id/textCategory"
+            tools:src="@drawable/ic_image" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
